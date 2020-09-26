@@ -1,0 +1,132 @@
+html,body{
+    letter-spacing: 0.6px;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    
+
+}
+a{
+    text-decoration: none;
+    font-size: 19px;
+    
+}
+h2{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    
+}
+.container{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contenido{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    
+}
+.register{
+    width: 75%;
+    max-width: 600px;
+}
+.register p{
+    display: flex;
+    flex-direction: column;
+    margin-bottom:5px;
+
+}
+.register  label{
+margin-bottom: 5px;
+font-weight: bold;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.register input{
+    border-radius: 10px;
+    border: none;
+    height: 40px;
+    color: #670F7E;
+    
+}
+.register button{
+    width: 100%;
+    height: 30px;
+    background: rgb(46,24,60);
+    background: linear-gradient(90deg, rgba(46,24,60,1) 6%, rgba(131,58,180,1) 46%, rgba(29,222,253,1) 100%, rgba(252,176,69,1) 100%);
+   border-radius: 8px;
+   font-size: 17px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   cursor: pointer;
+}
+@media screen and (min-width:1000px){
+    html,body{
+        letter-spacing: 0.6px;
+        background-image: url(./21664af375c341723bf57566e3a93d9f.jpg);
+        color: white;
+    
+    }
+    .container{
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .contenido{
+        display: flex;
+        width: 70%;
+        height: 90%;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        
+        
+    }
+    .register{
+        width: 75%;
+        max-width: 600px;
+    }
+    .register p{
+        display: flex;
+        flex-direction: column;
+        margin-bottom:5px;
+    
+    }
+    .register  label{
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .register input{
+        border-radius: 10px;
+        border: none;
+        height: 40px;
+        color: #670F7E;
+        
+    }
+    .register button{
+        width: 100%;
+        height: 30px;
+        background: rgb(46,24,60);
+        background: linear-gradient(90deg, rgba(46,24,60,1) 6%, rgba(131,58,180,1) 46%, rgba(29,222,253,1) 100%, rgba(252,176,69,1) 100%);
+       border-radius: 8px;
+       font-size: 17px;
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+       
+    }
+    a{
+        text-decoration: none;
+        font-size: 19px;
+        color: white;
+        
+    }
+
+
+}
